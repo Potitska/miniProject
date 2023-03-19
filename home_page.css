@@ -1,0 +1,17 @@
+.user_card{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    cursor: pointer;
+    background: black;
+    color: azure;
+}
+.btn:hover{
+    background: azure;
+    color: black;
+    transition: 0.3s;
+}
